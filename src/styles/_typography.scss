@@ -1,0 +1,29 @@
+/**
+ * Typography
+ */
+
+$modular-scale: 1.2;
+
+$fs-1 : ($base-font-size * ($modular-scale * 1.6));
+
+$fs-2 : ($base-font-size * ($modular-scale * 1.3));
+
+$ff-sans : sans-serif;
+
+$ff-serif : serif;
+
+html {
+    font-family: $ff-sans;
+    font-size: rem($base-font-size);
+    line-height: $base-line-height / $base-font-size;
+}
+
+h1,
+.h1 {
+    font-size: $fs-1;
+}
+
+h2,
+.h2 {
+    font-size: $fs-2;
+}

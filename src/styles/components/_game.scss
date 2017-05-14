@@ -1,0 +1,37 @@
+.game {
+    display: flex;
+    margin-bottom: $base-spacing-unit;
+    justify-content: center;
+    flex-direction: column;
+
+    .indicator {
+        align-self: center;
+        margin: 0 10px;
+    }
+}
+
+.game__overview {
+    display: flex;
+    justify-content: center;
+}
+
+.game__sets {
+    justify-content: center;
+    display: flex;
+}
+
+.game__player-one,
+.game__player-two {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.game__player-two {
+    flex-direction: row-reverse;
+}
+
+.game__player-score {
+    margin: 0 10px;
+}

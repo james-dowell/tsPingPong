@@ -1,0 +1,10 @@
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: none;
+}
+
+.indicator--winner {
+    background-color: $c-green;
+}

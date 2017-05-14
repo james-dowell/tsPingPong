@@ -1,0 +1,24 @@
+/*
+ !Layout
+ ------------------------------ */
+
+$base-max-width : 65em;
+
+$base-border-radius : 5px;
+
+/*
+ !Typography
+ ------------------------------ */
+
+$base-font-size:    16px;
+$base-line-height:  24px;
+
+// Define a common margin based on typography
+$base-spacing-unit: $base-line-height;
+
+/*
+ !Colours
+ ------------------------------ */
+
+$c-green: #3B9A49;
+$c-blue: #2175FF;

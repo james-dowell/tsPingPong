@@ -1,0 +1,10 @@
+.add-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .select {
+        flex: 2;
+        margin: 0 10px;
+    }
+}

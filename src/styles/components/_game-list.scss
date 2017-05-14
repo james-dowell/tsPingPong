@@ -1,0 +1,13 @@
+.game-list {
+}
+
+.game-list__item {
+    position: relative;
+
+    .btn {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

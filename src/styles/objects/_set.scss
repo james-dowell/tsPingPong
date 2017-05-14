@@ -1,0 +1,13 @@
+.set {
+    display: inline-block;
+
+    &:before {
+        content: '|';
+        margin: 0 5px;
+    }
+
+    &:first-child:before {
+        content: '';
+        display: none;
+    }
+}
